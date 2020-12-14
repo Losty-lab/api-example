@@ -10,7 +10,8 @@
     "serverprod": "set NODE_ENV=production & nodemon index.js",
     "client": "cd client && npm run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "concurrently \"npm run client\" \"npm run serverprod\""
+    "start": "concurrently \"npm run client\" \"npm run serverprod\"",
+    
   },
   "author": "",
   "license": "ISC",
