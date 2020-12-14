@@ -7,9 +7,10 @@
   "scripts": {
     "test": "set NODE_ENV=test & nodemon --exec mocha --recursive -R min",
     "server": "set NODE_ENV=development & nodemon index.js",
+    "serverprod": "set NODE_ENV=production & nodemon index.js",
     "client": "cd client && npm run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "start": "concurrently \"npm run serverprod\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
