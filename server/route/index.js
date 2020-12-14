@@ -7,11 +7,11 @@ const authRoute=require('./authroute');
 
 module.exports=(app)=>{
 
-    app.get("/",(req,res)=>{
+    // app.get("/",(req,res)=>{
 
-        res.send('Hola')
+    //     res.send('Hola')
 
-    })
+    // })
 
     
 
