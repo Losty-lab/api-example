@@ -1,0 +1,18 @@
+
+.element-info {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.element-price{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.element-type{
+    display: inline-block;
+}
+
+.element-pubblication{
+    margin-right: 10px;
+}
