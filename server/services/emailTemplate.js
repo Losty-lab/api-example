@@ -7,7 +7,7 @@ module.exports=(userId)=>{
     <div style="text-align-center">
     <h3>Click in order to confirm your email</h3>
     
-    <a href="${keys.redirectDomain}/api/user/${userId}">Click here</a>
+    <a href="http://localhost:3000/api/user/${userId}">Click here</a>
     </div>
 
     </body>
