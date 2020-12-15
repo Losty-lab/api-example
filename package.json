@@ -15,7 +15,7 @@
     "client": "cd client && npm run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "concurrently \"npm run client\" \"npm run serverprod\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install cd client && npm run build cd client"
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix && npm run build --prefix"
     
   },
   "author": "",
